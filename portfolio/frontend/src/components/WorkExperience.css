@@ -1,0 +1,244 @@
+/* ===================== WORK EXPERIENCE SECTION ===================== */
+
+#workexp-section {
+  background: radial-gradient(circle at 25% 40%, #0d111b 0%, #0f1c34 100%);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.workexp-title {
+  font-size: 3.4rem;
+  font-weight: bold;
+  margin-bottom: 60px;
+  word-spacing: 7px;
+  color: #bb02fb;
+}
+
+.workexp-highlight {
+  color: #9533ff;
+}
+
+/* ===================== TIMELINE ===================== */
+
+.workexp-timeline {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.workexp-timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background: linear-gradient(to bottom, #ff00ff, #8816cb, #ff00ff);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: 0;
+}
+
+/* ===================== CONTAINERS ===================== */
+
+.workexp-container {
+  padding: 20px 40px;
+  position: relative;
+  width: 70%;
+}
+
+.workexp-container::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #9533ff;
+  border: 3px solid #fff;
+  top: 30px;
+  border-radius: 50%;
+  z-index: 1;
+  box-shadow: 0 0 20px #19a8f6;
+  animation: workexp-pulse 2s infinite;
+}
+
+@keyframes workexp-pulse {
+  0% { box-shadow: 0 0 10px #19a8f6; }
+  50% { box-shadow: 0 0 30px #19a8f6; }
+  100% { box-shadow: 0 0 10px #19a8f6; }
+}
+
+.workexp-left {
+  right: 20%;
+}
+
+.workexp-right {
+  left: 50%;
+}
+
+.workexp-right::after {
+  left: -10px;
+}
+
+.workexp-left::after {
+  right: -10px;
+}
+
+/* ===================== CONTENT BOX ===================== */
+
+.workexp-content {
+  padding: 20px;
+  background: #132139;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 0 20px #bb02fb77;
+  transition: transform 0.3s ease;
+  border: 1px solid #bb02fb;
+}
+
+.workexp-content:hover {
+  transform: scale(1.1);
+}
+
+.workexp-content h3 {
+  color: #d85cff;
+  font-size: 1.7rem;
+  margin-bottom: 5px;
+}
+
+.workexp-location {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.workexp-duration {
+  font-size: 1rem;
+  color: #bbb;
+  margin-bottom: 10px;
+}
+
+.work-projects {
+  color: #bcafaf;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.workexp-content ul {
+  list-style-type: disc;
+  margin: 0;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.workexp-content ul li {
+  margin-bottom: 8px;
+  color: #ddd;
+  font-size: 1.2rem;
+}
+
+/* ===================== RESPONSIVE DESIGN ===================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .workexp-title {
+    font-size: 3.1rem;
+    margin-bottom: 50px;
+  }
+  .workexp-content h3 {
+    font-size: 1.5rem;
+  }
+  .workexp-location {
+    font-size: 1.1rem;
+  }
+  .workexp-duration {
+    font-size: 0.95rem;
+  }
+  .work-projects {
+    font-size: 1.1rem;
+  }
+  .workexp-content ul li {
+    font-size: 1.1rem;
+  }
+}
+
+/* Small tablets / large phones */
+@media (max-width: 768px) {
+  .workexp-container {
+    width: 90%;
+    margin: 0 auto 30px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .workexp-timeline::after {
+    left: 50%;
+    margin-left: -3px;
+  }
+
+  .workexp-left,
+  .workexp-right {
+    left: 0;
+    right: 0;
+  }
+
+  .workexp-container::after {
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+  }
+
+  .workexp-content {
+    transform: scale(1.05);
+    margin-top: 1.5rem;
+    padding: 16px;
+  }
+
+  .workexp-content h3 {
+    font-size: 1.3rem;
+  }
+  .workexp-location {
+    font-size: 1rem;
+  }
+  .workexp-duration {
+    font-size: 0.9rem;
+  }
+  .work-projects {
+    font-size: 1rem;
+  }
+  .workexp-content ul li {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .workexp-title {
+    font-size: 2.2rem;
+    margin-bottom: 35px;
+  }
+  .workexp-content h3 {
+    font-size: 1.2rem;
+  }
+  .workexp-location {
+    font-size: 0.95rem;
+  }
+  .workexp-duration {
+    font-size: 0.85rem;
+  }
+  .work-projects {
+    font-size: 0.95rem;
+  }
+  .workexp-content ul li {
+    font-size: 0.9rem;
+  }
+  .workexp-container {
+    padding: 12px;
+    margin-bottom: 25px;
+  }
+  .workexp-container::after {
+    display: none;
+  }
+}

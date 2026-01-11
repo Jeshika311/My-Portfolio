@@ -1,0 +1,207 @@
+/* ===================== GLOBAL STYLES ===================== */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* ===================== ABOUT SECTION ===================== */
+
+#about {
+  width: 100vw;
+  margin: 0;
+  min-height: 480px;
+  padding-left: 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 0 40px 0;
+  background: radial-gradient(circle at 25% 40%, #0d111b 0%, #0f1c34 100%);
+  box-sizing: border-box;
+  overflow: hidden;
+  gap: 40px;
+  color: white;
+  line-height: 1.5;
+}
+
+#about.shine-bg {
+  background: radial-gradient(circle at 60% 50%, #162036 100%, #1b3257 0%, #162036 100%);
+}
+
+/* ===================== LEFT SIDE ===================== */
+
+.about-left {
+  flex: 2;
+  color: #f2f7ff;
+  max-width: 57%;
+  padding-left: 150px;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+}
+
+.about-left h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 0.7rem;
+}
+
+.wave {
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+.name-highlight {
+  color: #d85cff;
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+  color: #d85cff;
+}
+
+.about-left p {
+  text-align: left;
+  list-style-position: outside;
+}
+
+.about-left ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+  list-style-position: outside;
+  text-align: left;
+}
+
+.about-left ul li strong {
+  color: #d697eb;
+}
+
+.about-left li {
+  margin-bottom: 0.3rem;
+}
+
+/* ===================== PROJECTS ===================== */
+
+.projects {
+  margin-top: 0.6rem;
+}
+
+.projects ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  list-style-position: inside;
+}
+
+.boldblue {
+  color: #bb02fb;
+  font-weight: bold;
+}
+
+/* ===================== RIGHT SIDE ===================== */
+
+.about-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 3vw;
+  box-sizing: border-box;
+}
+
+.profile-photo {
+  width: 330px;
+  height: 350px;
+  border-radius: 50%;
+  border: 2px solid #bb02fb;
+  box-shadow: 0 2px 32px #bb02fb77;
+  object-fit: cover;
+  transition: transform 0.8s ease, box-shadow 0.8s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 32px #bb02fb77;
+}
+
+/* ===================== RESPONSIVE DESIGN ===================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .about-left {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 1rem;
+  }
+  .about-left h1 {
+    font-size: 2.5rem;
+  }
+  .wave {
+    font-size: 1.8rem;
+  }
+  .profile-photo {
+    width: 300px;
+    height: 320px;
+  }
+}
+
+/* Small tablets / large phones */
+@media (max-width: 768px) {
+  #about {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+  }
+  .about-left {
+    max-width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  .about-left h1 {
+    font-size: 2.2rem;
+  }
+  .wave {
+    font-size: 1.5rem;
+  }
+  .profile-photo {
+    width: 280px;
+    height: 300px;
+  }
+  .about-left ul {
+    padding-left: 1rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .about-left h1 {
+    font-size: 2rem;
+  }
+  .wave {
+    font-size: 1.3rem;
+  }
+  .about-left {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 0.9rem;
+  }
+  .profile-photo {
+    width: 220px;
+    height: 240px;
+  }
+  .about-left ul {
+    padding-left: 0.8rem;
+  }
+  .projects ul {
+    padding-left: 0.8rem;
+  }
+}

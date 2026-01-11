@@ -1,0 +1,14 @@
+.section {
+  background: radial-gradient(circle at 25% 40%, #141a29 0%, #0f1c34 100%);
+  padding: 2rem 0;   /* height dene ke liye */
+  width: 100%;
+}
+
+.section-divider {
+  border: none;
+  height: 3px;
+  width: 80%;
+  margin: 0 auto;
+  background: linear-gradient(to right, transparent, #9533ff, transparent);
+  border-radius: 5px;
+}

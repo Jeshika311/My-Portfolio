@@ -1,0 +1,23 @@
+body {
+  /* font-family: 'Poppins', sans-serif; */
+  background-color: #0a0a0a;
+  color: white;
+  overflow-x: hidden;
+  min-height: 100%;
+}
+
+/* Use this class on sections that should be full viewport height */
+.section-full {
+  min-height: 100vh;
+}
+
+/* Ensure react-toastify container is fixed and doesn't affect layout */
+.Toastify__toast-container {
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !important;
+  width: var(--toastify-container-width, fit-content) !important;
+  z-index: var(--toastify-z-index, 9999) !important;
+  display: flex !important;
+  flex-direction: column !important;
+}

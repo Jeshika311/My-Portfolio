@@ -1,0 +1,32 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+/* Toast isolation */
+.Toastify__toast-container { 
+  position: fixed !important; 
+  top: 0 !important; 
+  right: 0 !important; 
+  z-index: 9999 !important; 
+  pointer-events: none !important; 
+}
+
+.Toastify__toast { 
+  pointer-events: auto !important; 
+}
+
+#toast-root { 
+  position: fixed; 
+  inset: 0; 
+  width: 0; 
+  height: 0; 
+  overflow: visible; 
+  pointer-events: none; 
+  z-index: 9999; 
+}
