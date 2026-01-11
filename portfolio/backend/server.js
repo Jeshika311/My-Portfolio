@@ -13,7 +13,7 @@ connectDB();
 //   methods: ['GET', 'POST'],
 //   allowedHeaders: ['Content-Type'],
 //   credentials: true
-// };  
+// };
 
 const corsOptions = {
   origin: "https://my-portfolio-jeshika311s-projects.vercel.app",
@@ -23,7 +23,6 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
-app.options("*", cors(corsOptions));
 
 app.use(express.json());
 app.use(express.urlencoded({extended : true}));
