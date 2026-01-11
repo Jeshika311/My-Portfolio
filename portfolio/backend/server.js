@@ -15,16 +15,18 @@ connectDB();
 //   credentials: true
 // };  
 
-app.use(cors({
-  origin: "*",
+const corsOptions = {
+  origin: "https://my-portfolio-jeshika311s-projects.vercel.app",
   methods: ["GET", "POST", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization"]
-}));
+  allowedHeaders: ["Content-Type", "Authorization"],
+  credentials: false
+};
+
+app.use(cors(corsOptions));
+app.options("*", cors(corsOptions));
 
 app.use(express.json());
 app.use(express.urlencoded({extended : true}));
-// app.use(cors(corsOptions));
-app.options("*", cors());
 
 app.use("/api/contact", messageRoutes);
 
