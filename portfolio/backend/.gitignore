@@ -1,0 +1,51 @@
+# Node dependencies
+node_modules/
+
+# Environment files (local secrets)
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Runtime files
+pids/
+*.pid
+*.seed
+
+# Build / output
+dist/
+build/
+lib/
+
+# Database, uploads, temp
+*.sqlite
+*.db
+/uploads/
+/tmp/
+
+# Coverage
+coverage/
+nyc_output/
+
+# Secrets / keys
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# OS / editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc
+coverage-*.json
+*.local
