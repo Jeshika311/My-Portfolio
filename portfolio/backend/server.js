@@ -16,18 +16,15 @@ connectDB();
 // };  
 
 app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin) return callback(null, true); // allow Postman / server requests
-    return callback(null, true); // allow all origins
-  },
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  allowedHeaders: ["Content-Type", "Authorization"],
-  credentials: true,
+  origin: "*",
+  methods: ["GET", "POST", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"]
 }));
 
 app.use(express.json());
 app.use(express.urlencoded({extended : true}));
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
+app.options("*", cors());
 
 app.use("/api/contact", messageRoutes);
 
