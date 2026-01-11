@@ -15,8 +15,25 @@ connectDB();
 //   credentials: true
 // };
 
+// const corsOptions = {
+//   origin: "https://my-portfolio-jeshika311s-projects.vercel.app",
+//   methods: ["GET", "POST", "OPTIONS"],
+//   allowedHeaders: ["Content-Type", "Authorization"],
+//   credentials: false
+// };
+
+// app.use(cors(corsOptions));
+
 const corsOptions = {
-  origin: "https://my-portfolio-jeshika311s-projects.vercel.app",
+  origin: function (origin, callback) {
+    if (!origin) return callback(null, true);
+
+    if (origin.endsWith(".vercel.app") || origin === "http://localhost:5173") {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
   methods: ["GET", "POST", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: false
