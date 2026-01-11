@@ -8,12 +8,22 @@ dotenv.config();
 const app = express();
 connectDB();
 
-const corsOptions = {
-  origin: "https://my-portfolio-jeshika311s-projects.vercel.app/",
-  methods: ['GET', 'POST'],
-  allowedHeaders: ['Content-Type'],
-  credentials: true
-};  
+// const corsOptions = {
+//   origin: "https://my-portfolio-jeshika311s-projects.vercel.app/",
+//   methods: ['GET', 'POST'],
+//   allowedHeaders: ['Content-Type'],
+//   credentials: true
+// };  
+
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin) return callback(null, true); // allow Postman / server requests
+    return callback(null, true); // allow all origins
+  },
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+  credentials: true,
+}));
 
 app.use(express.json());
 app.use(express.urlencoded({extended : true}));
