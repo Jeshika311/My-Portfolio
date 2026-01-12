@@ -49,18 +49,16 @@ export default function About() {
             <motion.p variants={item}>Here are some of my major projects:</motion.p>
             <ul>
               <motion.li variants={item}>
-                <strong>Ultrasonic sensor based Aurdino Radar : </strong>
-                An Ultrasonic Sensor based Radar System is built using an Arduino board, an ultrasonic sensor, and a servo motor.It scans the surrounding area by rotating the ultrasonic sensor, detects objects in its path, and displays them on a graphical interface.
-                <br />
-                Arduino UNO, Ultrasonic Sensor (HC-SR04), Servo Motor, Breadboard, Jumper Wires, and Power Supply.
+                <strong>Personal Portfolio Website : </strong>
+                A fully responsive personal portfolio website built using React and Vite to showcase my skills, projects, and experience. The website includes smooth animations, modern UI design, and a contact form integrated with a Node.js backend and MongoDB database.
               </motion.li>
+
               <motion.li variants={item}>
-                <strong>Blind stick : </strong>
-                Blind Stick is an assistive device designed to help visually impaired individuals navigate safely. It uses an ultrasonic sensor to detect obstacles ahead and alerts the user through a buzzer and vibration motor.
-                <br />
-                Arduino UNO, Ultrasonic Sensor (HC-SR04), Buzzer, Vibrating Motor, IR Sensor, Switch/Button, Battery/Power Supply, and Jumper Wires.
+                <strong>MERN Authentication System : </strong>
+                A complete authentication system built using the MERN stack with features like user registration, login, JWT-based authentication, protected routes, password hashing, and secure session handling.
               </motion.li>
             </ul>
+
           </div>
         </motion.div>
         <div className="about-right">

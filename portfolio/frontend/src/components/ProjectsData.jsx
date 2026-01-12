@@ -12,6 +12,6 @@ export const projectsData = [
     title: "🌐 Personal Portfolio Website",
     img: portfolio,
     desc: `A responsive and interactive personal portfolio website developed to showcase projects, technical skills, education, and professional experience. The portfolio features a modern UI/UX with smooth navigation and engaging visual elements. React Particles are integrated to create a dynamic, Spider-Man–inspired background effect, enhancing the overall user experience while maintaining performance and responsiveness.`,
-    github: "https://github.com/yourusername/demo"
+    github: "https://github.com/Jeshika311/My-Portfolio.git"
   }
 ];

@@ -28,6 +28,8 @@ const handleSubmit = async (e) => {
     return;
   }
 
+  const loadingToast = toast.loading("Sending message...");
+
   try {
     const response = await fetch(`${backendUrl}/api/contact`, {
       method: "POST",
@@ -38,15 +40,42 @@ const handleSubmit = async (e) => {
     });
 
     const data = await response.json();
+
+  //   if (response.ok) {
+  //     toast.success('Message sent successfully!');
+  //     e.target.reset();
+  //   } else {
+  //     toast.error(data.message || 'Failed to send message');
+  //   }
+  // } catch (error) {
+  //   console.error(error);
+  //   toast.error(error.message || 'Something went wrong. Try again later.');
+  // }
+
     if (response.ok) {
-      toast.success('Message sent successfully!');
+      toast.update(loadingToast, {
+        render: "Message sent successfully! ✅",
+        type: "success",
+        isLoading: false,
+        autoClose: 3000,
+      });
       e.target.reset();
     } else {
-      toast.error(data.message || 'Failed to send message');
+      toast.update(loadingToast, {
+        render: data.message || "Failed to send message ❌",
+        type: "error",
+        isLoading: false,
+        autoClose: 3000,
+      });
     }
   } catch (error) {
     console.error(error);
-    toast.error(error.message || 'Something went wrong. Try again later.');
+    toast.update(loadingToast, {
+      render: "Something went wrong. Try again later ❌",
+      type: "error",
+      isLoading: false,
+      autoClose: 3000,
+    }); 
   }
 };
 
