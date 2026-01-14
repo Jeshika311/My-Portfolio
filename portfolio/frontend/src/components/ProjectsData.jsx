@@ -6,7 +6,7 @@ export const projectsData = [
     title: "🔐 Authentication System",
     img: auth,
     desc: `A secure MERN-based authentication system built using JWT for user authorization and session management. The application supports email-based user verification, password reset, and protected login/logout functionality. Axios is used for efficient API communication between the frontend and backend. React Toastify provides real-time user notifications for an improved user experience. The system is designed with a strong focus on security, scalability, and usability.`,
-    github: "https://github.com/yourusername/demo"
+    github: "https://github.com/Jeshika311/MERN-STACK/tree/main/Full_Stack_Projects/Auth_System"
   },
   {
     title: "🌐 Personal Portfolio Website",
