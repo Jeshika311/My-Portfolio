@@ -1,5 +1,4 @@
-# Personal Portfolio Website
-# Jeshika Sharma
+# Personal Portfolio Website | Jeshika Sharma
 
 </br>
 
