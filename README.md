@@ -6,17 +6,20 @@
 <b>Personal Portfolio Website</b> is a responsive web application designed to showcase my skills, projects, and experience as a web developer. The portfolio serves as a professional online identity where visitors can learn about me, explore my projects, and contact me directly through an integrated contact form. The goal of this portfolio is to create a strong digital presence and provide an easy way for recruiters and collaborators to connect with me.
 <br><br>
 
-<h2><b>Key Features</b></h2><br>
-<b>● Responsive Design :</b> Fully responsive layout that works smoothly on mobile, tablet, and desktop devices. <br>
-<b>● Modern UI :</b> Clean and modern user interface with smooth animations. <br>
-<b>● Projects Showcase :</b> Displays my major projects with descriptions and technologies used. <br>
-<b>● Contact Form :</b> Users can send messages directly through the website. <br>
-<b>● Backend Integration :</b> Contact form is connected with a backend API and database. <br>
-<b>● Toast Notifications :</b> Provides real-time feedback when a message is sent. <br>
-<b>● Social Media Links :</b> Easy access to my GitHub, LinkedIn, Instagram, and other profiles. <br>
-<br>
+## 🌐 Live Demo
 
-<h2><b>Tech Stack</b></h2><br>
+🔗 **Production URL:**  
+https://my-portfolio-jeshika311s-projects.vercel.app/
+
+<h2><b>✨ Key Features</b></h2><br>
+- Responsive portfolio design
+- Project and skill showcase
+- Integrated contact form
+- Backend with database storage
+- Auto deployment with GitHub
+- Live production hosting
+
+<h2><b>🛠 Tech Stack</b></h2><br>
 The portfolio website uses the following technologies: <br><br>
 
 <b>● Frontend:</b><br>
@@ -41,16 +44,14 @@ The portfolio website uses the following technologies: <br><br>
 ○ MongoDB Atlas – Cloud database. <br>
 <br>
 
----
-
 ## 📁 Project Structure
 
 ```
-Personal-Portfolio/
+My-Portfolio
 │
-├── frontend/        # React frontend
-├── backend/         # Node.js + Express backend
-└── README.md
-```
+├── portfolio
+│   ├── frontend
+│   └── backend
+├── README.md  (Project documentation)
 
----
+```
