@@ -29,23 +29,23 @@ https://my-portfolio-jeshika311s-projects.vercel.app/
 The portfolio website uses the following technologies:
 
 <h3>● Frontend: </h3> 
-- React (Vite) – For building the user interface.
-- CSS – For styling and layout.
-- Framer Motion – For animations.
-- React Icons – For social icons.
-- React Toastify – For notifications.
+- React (Vite) – For building the user interface.</br>
+- CSS – For styling and layout.</br>
+- Framer Motion – For animations.</br>
+- React Icons – For social icons.</br>
+- React Toastify – For notifications.</br>
 
 <h3>● Backend: </h3> 
-- Node.js – For server-side development.
-- Express.js – For building REST APIs.
-- MongoDB – For storing contact messages.
+- Node.js – For server-side development.</br>
+- Express.js – For building REST APIs.</br>
+- MongoDB – For storing contact messages.</br>
 
 <h3>● Tools and Services:</h3> 
-- Git/GitHub – Version control and code management.
-- Postman – API testing.
-- Vercel – Frontend deployment.
-- Render – Backend deployment.
-- MongoDB Atlas – Cloud database.
+- Git/GitHub – Version control and code management.</br>
+- Postman – API testing.</br>
+- Vercel – Frontend deploymen</br>t.
+- Render – Backend deployment.</br>
+- MongoDB Atlas – Cloud database.</br>
 
 </br>
 
