@@ -40,3 +40,17 @@ The portfolio website uses the following technologies: <br><br>
 ○ Render – Backend deployment. <br>
 ○ MongoDB Atlas – Cloud database. <br>
 <br>
+
+---
+
+## 📁 Project Structure
+
+```
+Personal-Portfolio/
+│
+├── frontend/        # React frontend
+├── backend/         # Node.js + Express backend
+└── README.md
+```
+
+---
