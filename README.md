@@ -23,7 +23,9 @@ https://my-portfolio-jeshika311s-projects.vercel.app/
 - Auto deployment with GitHub
 - Live production hosting
 
-## 🛠 Tech Stack
+--- 
+
+<h1>🛠 Tech Stack </h1>
 The portfolio website uses the following technologies:
 
 ## ● Frontend:
