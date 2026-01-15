@@ -1,5 +1,5 @@
-<h1>Personal Portfolio Website</h1>
-<h1><b>Jeshika Sharma</b></h1>
+<h1 align="center">Personal Portfolio Website</h1>
+<h1 align="center"><b>Jeshika Sharma</b></h1>
 <br>
 
 <h2>Overview</h2>
