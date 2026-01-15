@@ -1,18 +1,18 @@
 # Personal Portfolio Website
 # Jeshika Sharma
 
+</br>
+
 <h2>🌐 Live Demo </h2>
 
 🔗 **Production URL:**  
 https://my-portfolio-jeshika311s-projects.vercel.app/
 
 </br>
-</br>
 
 ## 📖 Overview
 **Personal Portfolio Website** is a responsive web application designed to showcase my skills, projects, and experience as a web developer. The portfolio serves as a professional online identity where visitors can learn about me, explore my projects, and contact me directly through an integrated contact form. The goal of this portfolio is to create a strong digital presence and provide an easy way for recruiters and collaborators to connect with me.
 
-</br>
 </br>
 
 ## ✨ Key Features
@@ -24,31 +24,29 @@ https://my-portfolio-jeshika311s-projects.vercel.app/
 - Live production hosting
 
 </br>
-</br>
 
 <h2>🛠 Tech Stack </h2>
 The portfolio website uses the following technologies:
 
-## ● Frontend:
+<h3>● Frontend: </h3> 
 - React (Vite) – For building the user interface.
 - CSS – For styling and layout.
 - Framer Motion – For animations.
 - React Icons – For social icons.
 - React Toastify – For notifications.
 
-## ● Backend:
+<h3>● Backend: </h3> 
 - Node.js – For server-side development.
 - Express.js – For building REST APIs.
 - MongoDB – For storing contact messages.
 
-## ● Tools and Services:
+<h3>● Tools and Services:</h3> 
 - Git/GitHub – Version control and code management.
 - Postman – API testing.
 - Vercel – Frontend deployment.
 - Render – Backend deployment.
 - MongoDB Atlas – Cloud database.
 
-</br>
 </br>
 
 ## 📁 Project Structure
@@ -64,7 +62,6 @@ My-Portfolio
 ```
 
 </br>
-</br>
 
 ## 📬 Connect With Me
 
@@ -72,7 +69,6 @@ My-Portfolio
 - LinkedIn: https://www.linkedin.com/in/jeshika-sharma-5664b1322/  
 - Instagram: https://www.instagram.com/jeshikasharma07  
 
-</br>
 </br>
 
 ## 💬 Feedback
