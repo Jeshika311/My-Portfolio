@@ -51,7 +51,7 @@ export default function Certifications() {
             <div className="certification-meta">
               <h3 className="certification-name">{cert.name}</h3>
               <p className="certification-org">{cert.org}</p>
-              <p className="certification-issue">Issue date : {cert.month} , {cert.year}</p>
+              <p className="certification-issue">Issued in : {cert.month} , {cert.year}</p>
             </div>
           </a>
         ))}
