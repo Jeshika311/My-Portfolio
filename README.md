@@ -1,4 +1,4 @@
-# Personal Portfolio Website | Jeshika Sharma
+# Personal Portfolio | Jeshika Sharma
 
 </br>
 
@@ -10,7 +10,7 @@ https://my-portfolio-jeshika311s-projects.vercel.app/
 </br>
 
 ## 📖 Overview
-**Personal Portfolio Website** is a responsive web application designed to showcase my skills, projects, and experience as a web developer. The portfolio serves as a professional online identity where visitors can learn about me, explore my projects, and contact me directly through an integrated contact form. The goal of this portfolio is to create a strong digital presence and provide an easy way for recruiters and collaborators to connect with me.
+This portfolio represents my journey and growth as a web developer, highlighting my skills, projects, and practical experience. It acts as a professional platform where visitors can explore my work, understand my technical strengths, and connect with me through a built-in contact form.
 
 </br>
 
