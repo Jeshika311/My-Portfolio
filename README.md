@@ -42,7 +42,7 @@ The portfolio website uses the following technologies:
 <h3>● Tools and Services:</h3> 
 - Git/GitHub – Version control and code management.</br>
 - Postman – API testing.</br>
-- Vercel – Frontend deploymen</br>
+- Vercel – Frontend deployment.</br>
 - Render – Backend deployment.</br>
 - MongoDB Atlas – Cloud database.</br>
 
