@@ -1,5 +1,5 @@
-import { FaGithub, FaLinkedin, FaInstagram, FaFacebook, FaDiscord } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
+import { FaGithub, FaLinkedin, FaInstagram, FaDiscord } from "react-icons/fa";
+import { SiGmail , SiLeetcode} from "react-icons/si";
 import "./Contact.css";
 import contact from "../assets/contact-us.jpg";
 import { toast } from 'react-toastify';
@@ -8,7 +8,7 @@ const socialIcons = [
   { name: "Github", icon: <FaGithub />, url: "https://github.com/jeshika311" },
   { name: "Linkedin", icon: <FaLinkedin />, url: "https://www.linkedin.com/in/jeshika-sharma-5664b1322/" },
   { name: "Instagram", icon: <FaInstagram />, url: "https://www.instagram.com/jeshikasharma07" },
-  { name: "Facebook", icon: <FaFacebook />, url: "https://www.facebook.com/profile.php?id=100072929687798" },
+  { name: "Facebook", icon: <SiLeetcode />, url: "https://leetcode.com/u/Jeshika_Sharma/" },
   { name: "Discord", icon: <FaDiscord />, url: "https://discord.com/users/@jeshika31" },
   { name: "Gmail", icon: <SiGmail />, url: "mailto:jeshikasharma7@gmail.com" }
 ];
