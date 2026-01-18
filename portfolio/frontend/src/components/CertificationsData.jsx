@@ -122,7 +122,7 @@ export const certifications = [
   },
   {
     name: "Code clash hackathon",
-    org: "Microsoft Student Chapter - MSIT",
+    org: "CodeClash",
     year: "2025",
     month: "June",
     img: codeclash,

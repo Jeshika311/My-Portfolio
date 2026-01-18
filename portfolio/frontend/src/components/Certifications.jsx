@@ -25,7 +25,7 @@ export default function Certifications() {
           repeat: Infinity,
           repeatType: "loop",
           ease: "linear",
-          duration: certifications.length 
+          duration: certifications.length * 3
         }
       }
     });
