@@ -159,9 +159,9 @@
 /* Mobile phones */
 @media (max-width: 480px) {
   .skills-section h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     white-space: nowrap;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
   .skills-grid {
     padding-left: 20px;
