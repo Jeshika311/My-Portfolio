@@ -96,6 +96,7 @@
 .certification-meta {
   margin-top: 10px;
   width: 100%;
+  text-align: center;
 }
 
 .certification-name {
@@ -104,7 +105,7 @@
   color: #d85cff;
   margin-bottom: 0.8rem;
   margin-top: 13px;
-  text-align: center;
+  text-align: left;
 }
 
 .certification-org {
@@ -119,6 +120,36 @@
   text-align: left;
   font-size: 0.9rem;
   margin-top: 0.4rem;
+}
+
+.verify-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 24px;
+  background: linear-gradient(135deg, #bb02fb 0%, #d85cff 100%);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(.22,.75,.45,1);
+  box-shadow: 0 4px 12px #bb02fb44;
+  pointer-events: auto;
+  position: relative;
+  z-index: 10;
+}
+
+.verify-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px #bb02fb66;
+  background: linear-gradient(135deg, #d85cff 0%, #bb02fb 100%);
+}
+
+.verify-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px #bb02fb44;
 }
 
 /* Tablets and smaller screens */
