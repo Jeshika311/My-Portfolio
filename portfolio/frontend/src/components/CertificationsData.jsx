@@ -14,6 +14,7 @@ import codsoft from "../assets/codsoft.png";
 import codeclash from "../assets/codeclash.png";
 import hackvision from "../assets/hackvision.png";
 import hackureka from "../assets/hackureka.png";
+import sscc from "../assets/strategy-storm.png";
 
 export const certifications = [
   {
@@ -31,6 +32,14 @@ export const certifications = [
     month: "July",
     img: iitg,
     link: "https://certificate.givemycertificate.com/c/bbf0154f-00b6-4d48-bf5f-b26de2369684"
+  },
+  {
+    name: "Strategy Storm Case Competition",
+    org: "IIT Guwahati",
+    year: "2026",
+    month: "January",
+    img: sscc,
+    link: "https://verification.givemycertificate.com/v/c26d9948-844c-4a65-9665-261bd295facb"
   },
   {
     name: "Frontend Battle",
