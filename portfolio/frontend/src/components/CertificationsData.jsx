@@ -14,7 +14,12 @@ import codsoft from "../assets/codsoft.png";
 import codeclash from "../assets/codeclash.png";
 import hackvision from "../assets/hackvision.png";
 import hackureka from "../assets/hackureka.png";
+import hackureka2 from "../assets/hackureka2.png";
 import sscc from "../assets/strategy-storm.png";
+import saras from "../assets/saras.png";
+import dubai from "../assets/dubai.png";
+import hclguvi from "../assets/HCL_GUVI.png";
+import mnnit from "../assets/MNNIT.png";
 
 export const certifications = [
   {
@@ -50,12 +55,36 @@ export const certifications = [
     link: "https://unstop.com/certificate-preview/161b52d5-23cf-40a5-a4a5-15ac22dfc91a?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=wow-look-at-your-certificate-frontend-battle-vibe-coding-competition"
   },
   {
+    name: "OPS 48 Hackathon",
+    org: "MNNIT Allahabad",
+    year: "2026",
+    month: "March",
+    img: mnnit,
+    link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1773234714/mnnit_b8qwob.png"
+  },
+  {
+    name: "AI for Sustainability International Hackathon",
+    org: "Canadian University, Dubai",
+    year: "2026",
+    month: "February",
+    img: dubai,
+    link: "https://drive.google.com/file/d/1ouFdFV_ngJgNAzLPnwKP0qqUtCjzEESQ/view"
+  },
+  {
     name: "GDG on Campus Solution Challenge",
     org: "Hack2Skill",
     year: "2025",
     month: "August",
     img: hackskill,
     link: "https://certificate.hack2skill.com/user/gdgscparticipation/2025H2S01GSC-P07755"
+  },  
+  {
+    name: "India AI Impact Buildathon",
+    org: "HCL GUVI",
+    year: "2026",
+    month: "February",
+    img: hclguvi,
+    link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1772726889/HCL_GUVI_Certification_-_tQ0929u766N2K17AG7_szpzgv.png"
   },  
   {
     name: "Agentic AI",
@@ -80,6 +109,14 @@ export const certifications = [
     month: "October",
     img: kg,
     link: "https://www.knowledgegate.ai/student/certificates/CERT-1759666251061-6BCFB9A6"
+  },
+  {
+    name: "10x Developer with AI",
+    org: "Saras AI Institute",
+    year: "2026",
+    month: "January",
+    img: saras,
+    link: "https://credsverse.com/credentials/b83f95d8-03c7-47f1-b598-286e37889bab"
   },
   {
     name: "Pitching competition",
@@ -151,6 +188,14 @@ export const certifications = [
     year: "2025",
     month: "February",
     img: hackureka,
+    link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1768660209/GDG_Hackure-ka_15-02-2025_yhzgtt.png"
+  },
+  {
+    name: "HACKUREKA-II",
+    org: "GDG MMDU & CSE Dept. MMDU",
+    year: "2026",
+    month: "February",
+    img: hackureka2,
     link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1768660209/GDG_Hackure-ka_15-02-2025_yhzgtt.png"
   }
 ];
