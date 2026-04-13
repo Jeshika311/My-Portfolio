@@ -20,6 +20,9 @@ import saras from "../assets/saras.png";
 import dubai from "../assets/dubai.png";
 import hclguvi from "../assets/HCL_GUVI.png";
 import mnnit from "../assets/MNNIT.png";
+import hr from "../assets/Hackerrank.png";
+import AlgoUniversity from "../assets/AlgoUniversity.png";
+import bytexl from "../assets/bytexl.png";
 
 export const certifications = [
   {
@@ -29,6 +32,14 @@ export const certifications = [
     month: "August",
     img: gfg,
     link: "https://media.geeksforgeeks.org/auth-certificates/1751999400/5a49e6153b0c7a35eb13ec6dec43fcfb.png"
+  },
+  {
+    name: "Code Rush",
+    org: "MMDU X byteXL",
+    year: "2026",
+    month: "March",
+    img: bytexl,
+    link: "https://drive.google.com/file/d/1aCNaDoxdbKxAb0M0AikN-kS9_oYbVfsU/view"
   },
   {
     name: "Capstone Project Completion",
@@ -111,12 +122,28 @@ export const certifications = [
     link: "https://www.knowledgegate.ai/student/certificates/CERT-1759666251061-6BCFB9A6"
   },
   {
+    name: "Software Engineer",
+    org: "HackerRank",
+    year: "2026",
+    month: "March",
+    img: hr,
+    link: "https://www.hackerrank.com/certificates/iframe/edb4fd14acfb"
+  },
+  {
     name: "10x Developer with AI",
     org: "Saras AI Institute",
     year: "2026",
     month: "January",
     img: saras,
     link: "https://credsverse.com/credentials/b83f95d8-03c7-47f1-b598-286e37889bab"
+  },
+  {
+    name: "Graph Theory",
+    org: "Algo University",
+    year: "2026",
+    month: "March",
+    img: AlgoUniversity,
+    link: "https://d3uam8jk4sa4y4.cloudfront.net/static/certificates/graph_camp/jeshika.png"
   },
   {
     name: "Pitching competition",
