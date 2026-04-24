@@ -23,6 +23,11 @@ import mnnit from "../assets/MNNIT.png";
 import hr from "../assets/Hackerrank.png";
 import AlgoUniversity from "../assets/AlgoUniversity.png";
 import bytexl from "../assets/bytexl.png";
+import london from "../assets/london.png";
+import fortune from "../assets/fortune.png";
+import metacode from "../assets/metacode.png";
+import amentis from "../assets/amentis.png";
+import codekshetra from "../assets/codekshetra.png";
 
 export const certifications = [
   {
@@ -34,8 +39,16 @@ export const certifications = [
     link: "https://media.geeksforgeeks.org/auth-certificates/1751999400/5a49e6153b0c7a35eb13ec6dec43fcfb.png"
   },
   {
+    name: "CodeKshetra",
+    org: "Geeks for Geeks",
+    year: "2026",
+    month: "April",
+    img: codekshetra,
+    link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1777040970/codekshetra_zhch64.png"
+  },
+  {
     name: "Code Rush",
-    org: "MMDU X byteXL",
+    org: "MMDU x byteXL",
     year: "2026",
     month: "March",
     img: bytexl,
@@ -80,6 +93,14 @@ export const certifications = [
     month: "February",
     img: dubai,
     link: "https://drive.google.com/file/d/1ouFdFV_ngJgNAzLPnwKP0qqUtCjzEESQ/view"
+  },
+  {
+    name: "AI tool challenge",
+    org: "Goldsmiths university of London",
+    year: "2026",
+    month: "April",
+    img: london,
+    link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1776223401/Jeshika_Team-ImpactCoders__Certificate_wgdqtt.png"
   },
   {
     name: "GDG on Campus Solution Challenge",
@@ -162,6 +183,22 @@ export const certifications = [
     link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1768657586/Screenshot_2026-01-17_183557_bivoz8.png"
   },
   {
+    name: "MetaCode",
+    org: "IIT Kharagpur",
+    year: "2026",
+    month: "March",
+    img: metacode,
+    link: "https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/af1a2f69-b912-40ae-b195-62ec9b62bd8b.pdf"
+  },
+  {
+    name: "AMENTIS",
+    org: "GTBIT, New Delhi",
+    year: "2026",
+    month: "April",
+    img: amentis,
+    link: "https://unstop.com/certificate-preview/9d63ebaa-d5a7-452e-ba56-41824a2ce616?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=wow-look-at-your-certificate-amentis-chartering-the-unknown"
+  },
+  {
     name: "UI/UX Design",
     org: "Alpha intern",
     year: "2024",
@@ -200,6 +237,14 @@ export const certifications = [
     month: "June",
     img: codeclash,
     link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1768660209/Code_Clash_28_06_2025_vpocje.png"
+  },
+  {
+    name: "Fortune'26",
+    org: "ASSETS DTU",
+    year: "2026",
+    month: "April",
+    img: fortune,
+    link: "https://wallet.truscholar.io/credentials/certificates/69de7aaddf62e9001f7a32ad"
   },
   {
     name: "HackVision Vault 2k25",
