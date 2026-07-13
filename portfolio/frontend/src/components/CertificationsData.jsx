@@ -28,6 +28,7 @@ import fortune from "../assets/fortune.png";
 import metacode from "../assets/metacode.png";
 import amentis from "../assets/amentis.png";
 import codekshetra from "../assets/codekshetra.png";
+import AimlQuiz from "../assets/AimlQuiz.png";
 
 export const certifications = [
   {
@@ -125,6 +126,14 @@ export const certifications = [
     month: "July",
     img: AgenticAI,
     link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1768657917/Screenshot_2026-01-17_192057_utpha5.png"
+  },
+  {
+    name: "AI/ML Quiz",
+    org: "GFG & HackuVerse",
+    year: "2026",
+    month: "April",
+    img: AimlQuiz,
+    link: "https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/0eb6d4e3-a3b9-4a95-8403-5596109d7e96.pdf"
   },
   {
     name: "Web development Intern",
