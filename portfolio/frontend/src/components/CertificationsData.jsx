@@ -5,30 +5,21 @@ import hackskill from "../assets/Hack2skill.png";
 import AgenticAI from "../assets/microsoft.png";
 import web from "../assets/skillcraft.png";
 import kg from "../assets/kgcoding.png";
-import uiux from "../assets/ui-ux.png";
 import msit from "../assets/msit-devtown.png";
 import tcs from "../assets/tcs.png";
 import gdg_vit from "../assets/gdg-vit.png";
-import ecell from "../assets/ecell.png";
 import codsoft from "../assets/codsoft.png";
-import codeclash from "../assets/codeclash.png";
-import hackvision from "../assets/hackvision.png";
-import hackureka from "../assets/hackureka.png";
-import hackureka2 from "../assets/hackureka2.png";
 import sscc from "../assets/strategy-storm.png";
 import saras from "../assets/saras.png";
 import dubai from "../assets/dubai.png";
 import hclguvi from "../assets/HCL_GUVI.png";
-import mnnit from "../assets/MNNIT.png";
 import hr from "../assets/Hackerrank.png";
 import AlgoUniversity from "../assets/AlgoUniversity.png";
 import bytexl from "../assets/bytexl.png";
 import london from "../assets/london.png";
-import fortune from "../assets/fortune.png";
-import metacode from "../assets/metacode.png";
-import amentis from "../assets/amentis.png";
 import codekshetra from "../assets/codekshetra.png";
 import AimlQuiz from "../assets/AimlQuiz.png";
+import technohacks from "../assets/technohacks.png";
 
 export const certifications = [
   {
@@ -72,20 +63,20 @@ export const certifications = [
     link: "https://verification.givemycertificate.com/v/c26d9948-844c-4a65-9665-261bd295facb"
   },
   {
+    name: "Full Stack Development Internship",
+    org: "TechnoHacks Pvt. Ltd.",
+    year: "2026",
+    month: "June",
+    img: technohacks,
+    link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1783921944/Screenshot_2026-07-13_111859_lcuzku.png"
+  },
+  {
     name: "Frontend Battle",
     org: "IIT Bhubaneswar",
     year: "2025",
     month: "June",
     img: iitb,
     link: "https://unstop.com/certificate-preview/161b52d5-23cf-40a5-a4a5-15ac22dfc91a?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=wow-look-at-your-certificate-frontend-battle-vibe-coding-competition"
-  },
-  {
-    name: "OPS 48 Hackathon",
-    org: "MNNIT Allahabad",
-    year: "2026",
-    month: "March",
-    img: mnnit,
-    link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1773234714/mnnit_b8qwob.png"
   },
   {
     name: "AI for Sustainability International Hackathon",
@@ -176,44 +167,12 @@ export const certifications = [
     link: "https://d3uam8jk4sa4y4.cloudfront.net/static/certificates/graph_camp/jeshika.png"
   },
   {
-    name: "Pitching competition",
-    org: "e-cell MMDU",
-    year: "2024",
-    month: "November",
-    img: ecell,
-    link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1768660208/e-cell_business_pitching_11-11-2024_oyxd9q.jpg"
-  },
-  {
     name: "Soft skills",
     org: "tcs iON",
     year: "2025",
     month: "April",
     img: tcs,
     link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1768657586/Screenshot_2026-01-17_183557_bivoz8.png"
-  },
-  {
-    name: "MetaCode",
-    org: "IIT Kharagpur",
-    year: "2026",
-    month: "March",
-    img: metacode,
-    link: "https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/af1a2f69-b912-40ae-b195-62ec9b62bd8b.pdf"
-  },
-  {
-    name: "AMENTIS",
-    org: "GTBIT, New Delhi",
-    year: "2026",
-    month: "April",
-    img: amentis,
-    link: "https://unstop.com/certificate-preview/9d63ebaa-d5a7-452e-ba56-41824a2ce616?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=wow-look-at-your-certificate-amentis-chartering-the-unknown"
-  },
-  {
-    name: "UI/UX Design",
-    org: "Alpha intern",
-    year: "2024",
-    month: "September",
-    img: uiux,
-    link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1768657570/Screenshot_2026-01-17_183330_qwpc0k.png"
   },
   {
     name: "Python Internship",
@@ -239,44 +198,4 @@ export const certifications = [
     img: msit,
     link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1768657438/Screenshot_2026-01-17_183223_push4f.png"
   },
-  {
-    name: "Code clash hackathon",
-    org: "CodeClash",
-    year: "2025",
-    month: "June",
-    img: codeclash,
-    link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1768660209/Code_Clash_28_06_2025_vpocje.png"
-  },
-  {
-    name: "Fortune'26",
-    org: "ASSETS DTU",
-    year: "2026",
-    month: "April",
-    img: fortune,
-    link: "https://wallet.truscholar.io/credentials/certificates/69de7aaddf62e9001f7a32ad"
-  },
-  {
-    name: "HackVision Vault 2k25",
-    org: "CSE Dept. MMDU",
-    year: "2025",
-    month: "March",
-    img: hackvision,
-    link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1768660208/HackVisionVault_26-03-2025_b7gn6m.jpg"
-  },
-  {
-    name: "HACKURE-ka",
-    org: "GDG MMDU",
-    year: "2025",
-    month: "February",
-    img: hackureka,
-    link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1768660209/GDG_Hackure-ka_15-02-2025_yhzgtt.png"
-  },
-  {
-    name: "HACKUREKA-II",
-    org: "GDG MMDU & CSE Dept. MMDU",
-    year: "2026",
-    month: "February",
-    img: hackureka2,
-    link: "https://res.cloudinary.com/dbavu8clp/image/upload/v1768660209/GDG_Hackure-ka_15-02-2025_yhzgtt.png"
-  }
 ];
