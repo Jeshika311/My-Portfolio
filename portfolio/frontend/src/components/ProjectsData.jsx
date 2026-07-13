@@ -1,6 +1,7 @@
 import portfolio from "../assets/portfolio.png";
-import auth from "../assets/auth.png";
 import interview from "../assets/interviewIQ.png";
+import estateflow from "../assets/estateflow.png";
+
 
 export const projectsData = [
   {
@@ -12,7 +13,13 @@ export const projectsData = [
   {
     title: "🧠 AI Interview Agent",
     img: interview,
-    desc: `A full-stack AI-powered mock interview platform that generates personalized interview questions based on role, experience, skills, and resume data. It features resume analysis, voice-enabled interviews, timed question sessions, AI-generated feedback, performance analytics, interview history, a credit-based system, and Razorpay payment integration..`,
+    desc: `A full-stack AI-powered mock interview platform built using the MERN Stack. It generates personalized interview questions and AI-powered feedback based on the user's role, experience, skills, and resume. The platform features Firebase Authentication, OpenRouter AI, voice-enabled interviews, resume analysis, timed sessions, performance analytics, interview history, a credit-based system, and Razorpay payment integration.`,
     github: "https://github.com/Jeshika311/AI-Interview-Agent"
+  },
+  {
+    title: "🏠 EstateFlow",
+    img: estateflow,
+    desc: `A full-stack multi-user real estate management platform built using the MERN Stack. It allows users to browse and search properties, agents to add and manage property listings, and admins to manage the entire platform. The platform features role-based authentication, advanced property search and filters, property CRUD operations, Cloudinary image uploads, Brevo email integration, secure REST APIs, and a responsive modern UI.`,
+    github: "https://github.com/Jeshika311/EstateFlow"
   }
 ];
