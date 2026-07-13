@@ -2,6 +2,7 @@ import portfolio from "../assets/portfolio.png";
 import interview from "../assets/interviewIQ.png";
 import estateflow from "../assets/estateflow.png";
 import cravely from "../assets/cravely.png";
+import schoolride from "../assets/schoolride.png";
 
 export const projectsData = [
   {
@@ -27,5 +28,11 @@ export const projectsData = [
     img: cravely,
     desc: `A full-stack real-time food delivery platform built using the MERN Stack. It allows users to browse and order food, shop owners to manage their shops, food items, and orders, and delivery partners to accept and deliver orders. The platform features role-based authentication, real-time order updates using Socket.IO, live delivery tracking with React Leaflet, Razorpay payment integration, OTP-based delivery verification, food ratings, geolocation-based services, and responsive UI.`,
     github: "https://github.com/Jeshika311/Cravely"
+  }, 
+  {
+    title: "🚌 SchoolRide",
+    img: schoolride,
+    desc: `A full-stack school transportation and ride management platform built using the MERN Stack. It allows parents to book and track school rides, drivers to manage trips and bookings, and admins to manage the entire platform. The platform features role-based authentication, Google login, ride booking, live tracking, bus and route management, payment integration, Firebase notifications, profile management, secure REST APIs, and a responsive modern UI.`,
+    github: "https://github.com/Jeshika311/SchoolRide"
   }
 ];
