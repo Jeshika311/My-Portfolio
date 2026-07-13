@@ -1,7 +1,7 @@
 import portfolio from "../assets/portfolio.png";
 import interview from "../assets/interviewIQ.png";
 import estateflow from "../assets/estateflow.png";
-
+import cravely from "../assets/cravely.png";
 
 export const projectsData = [
   {
@@ -21,5 +21,11 @@ export const projectsData = [
     img: estateflow,
     desc: `A full-stack multi-user real estate management platform built using the MERN Stack. It allows users to browse and search properties, agents to add and manage property listings, and admins to manage the entire platform. The platform features role-based authentication, advanced property search and filters, property CRUD operations, Cloudinary image uploads, Brevo email integration, secure REST APIs, and a responsive modern UI.`,
     github: "https://github.com/Jeshika311/EstateFlow"
+  },
+  {
+    title: "🍔 Cravely",
+    img: cravely,
+    desc: `A full-stack real-time food delivery platform built using the MERN Stack. It allows users to browse and order food, shop owners to manage their shops, food items, and orders, and delivery partners to accept and deliver orders. The platform features role-based authentication, real-time order updates using Socket.IO, live delivery tracking with React Leaflet, Razorpay payment integration, OTP-based delivery verification, food ratings, geolocation-based services, and responsive UI.`,
+    github: "https://github.com/Jeshika311/Cravely"
   }
 ];
