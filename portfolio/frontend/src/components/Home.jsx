@@ -22,7 +22,7 @@ export default function Home() {
             animate={{ y: 0 , opacity: 1.5}}
             transition={{ duration: 1.7 }}           
           className="subtitle">
-            Full Stack Developer | Problem Solver
+            Backend-Focused MERN Developer | Problem Solver
           </motion.h2>
 
           <div className="social-icons">
